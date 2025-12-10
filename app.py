@@ -51,8 +51,8 @@ db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 
 # Configuración de reCAPTCHA v2
-RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY', '6LfsHBcsAAAAAKh46BHuWbkvet4ZMhJI8wMPorO9')
-RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY', '6LfsHBcsAAAAAF-YbyfPDnT4kth2HzbTUp9qdSoa')
+RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY', '6LfL7SYsAAAAACwS9utTXQq2UtkD5vHTPOOxROKr')
+RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY', '6LfL7SYsAAAAAPsuxMPpLevwS30017GVnyav1XSn')
 SIMULATE_RECAPTCHA = os.environ.get('SIMULATE_RECAPTCHA', 'True').lower() == 'true'
 
 # Configuración para EMAIL
