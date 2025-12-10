@@ -1,6 +1,5 @@
 # app.py - SISTEMA COMPLETO DE RUTAS ÓPTIMAS PARA MÉXICO
 import os
-import jwt
 import json
 import math
 import random
